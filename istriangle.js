@@ -1,4 +1,4 @@
-const inputs = document.querySelectorAll('.angle-input');
+const inputs = document.querySelectorAll('.inputs');
 const isTriangleBtn = document.querySelector('#is-triangle-btn');
 const outputEl = document.querySelector('#output');
 

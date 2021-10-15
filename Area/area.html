@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoiceOfWeb | Hypotenuse</title>
+    <title>VoiceOfWeb | Area of Triangle</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/></head>
 
@@ -13,25 +13,23 @@
     <nav class="nav">
         <a href="/index.html">Is Triangle?</a>
         <a href="/Quiz/quiz.html">Quiz</a>
-        <a href="/Hypotenuse/hypotenuse.html" class="active">Hypotenuse</a>
-        <a href="/Area/area.html">Area</a>
+        <a href="/Hypotenuse/hypotenuse.html">Hypotenuse</a>
+        <a href="/Area/area.html" class="active">Area</a>
     </nav>
 <div class="content">
     <div class="heading">
-        <h1>Calculate Hypotenuse</h1>
+        <h2>Check Area Of a Triangle</h2>
     </div>
-    <div class="formula">Hypotenuse = SQRT(
-        A­² + B²)
-    </div>
-    <label for="">Value of A </label>
-    <input type="number" class="inputs">
-    <br>
-    <label for="">Value of B </label>
-    <input type="number" class="inputs">
-    <br><br>   
-    <button id="hypotenues-btn">Calculate Hypotenuse</button>
-    <div id="output"></div>
+    
+    <div class="formula">Area of a Triangle = 1/2(Base*Height)</div>
+    <label for="">Base(in cm)</label>
+    <input type="number" name="" class="inputs">
+    <label for="">Height(in cm)</label>
+    <input type="number" name="" class="inputs">
 
+    <button id="check-btn">Check Area</button>
+
+    <div id="output"></div>
 </div>
 
 <footer class="footer"> 
@@ -50,6 +48,6 @@
         </li>
     </ul>
 </footer>
-    <script src="/Hypotenuse/hypotenuse.js"></script>    
+    <script src="/Area/area.js"></script>
 </body>
 </html>
